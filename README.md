@@ -42,14 +42,28 @@ If the pump is pumping on the timer, and you want it to stop immediately, just p
 
 ## Connect to the WEMOS:
   * Screen
-  * SSR to GPIO14
-  * Start button to GPIO4 with pull down resistor
-  * Up button to GPIO12 with pull down resistor
-  * Down button to GPIO13 with pull down resistor
+  * SSR to GPIO14 (Input +) and GND (Input -)
+  * Start button to GPIO4 and GND
+  * Up button to GPIO12 and GND
+  * Down button to GPIO13 and GND
+  * Pull down resistors are not neccesary, as the Wemos has internal resistors.
 
 ## Also Connect:
-Switch to bridge the SSR
-Pump to the SSR
-Adapter to the SSR
+Switch to SSR Output + and -
+Pump to the SSR Output -
+Adapter + to the SSR Output +
+Adapter - to Pump -
+
+## To Save the file to the Wemos (from Windows):
+  * Install uPyCraft:
+  * Go to Tools -> Preferences
+  * Go to the Serial tab
+  * Set: baud=115200, bytesize=8, stopbots=1,  parity=none
+  * Click close button on the preferences popup
+  * Connect the Wemos to your computer
+  * Click Tools -> Serial and the correct COM Port
+  * Click the New File button on the upper right, to create main.py
+  * Copy the contents of the file in the editor and save
+  * Click Tools -> Download to download the file to the Wemos
 
 *Special thanks to Loek and Diede from brew guild Zoetermeer for helping me out on some questions I had while creating this.*
