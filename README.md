@@ -55,7 +55,7 @@ Adapter + to the SSR Output +
 Adapter - to Pump -
 
 ## To Save the file to the Wemos (from Windows):
-  * Install uPyCraft:
+  * Install uPyCraft: https://randomnerdtutorials.com/install-upycraft-ide-windows-pc-instructions/
   * Go to Tools -> Preferences
   * Go to the Serial tab
   * Set: baud=115200, bytesize=8, stopbots=1,  parity=none
