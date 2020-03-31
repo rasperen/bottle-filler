@@ -41,7 +41,7 @@ If the pump is pumping on the timer, and you want it to stop immediately, just p
   * 12mm drill bit
 
 ## Connect to the WEMOS:
-  * Screen
+  * Screen (easiest way is to just use it as a HAT)
   * SSR to GPIO14 (Input +) and GND (Input -)
   * Start button to GPIO4 and GND
   * Up button to GPIO12 and GND
