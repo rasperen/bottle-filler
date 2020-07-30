@@ -49,10 +49,10 @@ If the pump is pumping on the timer, and you want it to stop immediately, just p
   * Pull down resistors are not neccesary, as the Wemos has internal resistors.
 
 ## Also Connect:
-Switch to SSR Output + and -
-Pump to the SSR Output -
-Adapter + to the SSR Output +
-Adapter - to Pump -
+  * Switch to SSR Output + and -
+  * Pump to the SSR Output -
+  * Adapter + to the SSR Output +
+  * Adapter - to Pump -
 
 ## To Save the file to the Wemos (from Windows):
   * Install uPyCraft: https://randomnerdtutorials.com/install-upycraft-ide-windows-pc-instructions/
