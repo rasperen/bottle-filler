@@ -66,4 +66,7 @@ If the pump is pumping on the timer, and you want it to stop immediately, just p
   * Copy the contents of the file in the editor and save
   * Click Tools -> Download to download the file to the Wemos
 
+## Known issues:
+  * When you get an error on line 20, change `i2c = I2C(-1, Pin(5), Pin(4))` to `i2c = I2C(Pin(5), Pin(4))` on line 20.
+  
 *Special thanks to Loek and Diede from brew guild Zoetermeer for helping me out on some questions I had while creating this.*
