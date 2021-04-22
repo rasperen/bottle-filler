@@ -68,5 +68,11 @@ If the pump is pumping on the timer, and you want it to stop immediately, just p
 
 ## Known issues:
   * When you get an error on line 20, change `i2c = I2C(-1, Pin(5), Pin(4))` to `i2c = I2C(Pin(5), Pin(4))` on line 20.
+  * Sometimes, the pump gets stuck. You hear the engine working, but no water is being transferred. There probably is a leak in the pump when that happens. This is what solves it for me:
+    * Unscrewing the 5 top and bottom screws next to the hose connections
+    * Remove both caps slowly. Make sure you don't lose the springs.
+    * Remove the 8-shaped plastic and both pins
+    * Reassemble everything the way it was
+    * This has worked for me a couple of times already. Hopefully, it will for you too!
   
 *Special thanks to Loek and Diede from brew guild Zoetermeer for helping me out on some questions I had while creating this.*
